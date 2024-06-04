@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chowdhuryj.gui.Lab13Controller">
+   <children>
+      <MenuBar prefHeight="28.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="LoadFile" mnemonicParsing="false" onAction="#fileChoose" text="Load File" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ListView fx:id="listView" prefHeight="200.0" prefWidth="600.0" />
+      <HBox alignment="CENTER" prefHeight="42.0" prefWidth="600.0" spacing="10.0">
+         <children>
+            <Label text="Search">
+               <opaqueInsets>
+                  <Insets right="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="MS Outlook" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="searchQuery" onKeyTyped="#showTimes">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="38.0" prefWidth="600.0" spacing="10.0">
+         <children>
+            <Label text="Unsorted List">
+               <font>
+                  <Font name="MS Outlook" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <VBox prefHeight="74.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="26.0" prefWidth="585.0">
+               <children>
+                  <Label text="Exact Query Time">
+                     <padding>
+                        <Insets right="10.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="unsortedQueryTime" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="All Matches Time">
+                     <padding>
+                        <Insets right="10.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="unsortedMatchTime" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="15.0" top="10.0" />
+         </padding>
+      </VBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="38.0" prefWidth="600.0" spacing="10.0">
+         <children>
+            <Label text="Sorted List">
+               <font>
+                  <Font name="MS Outlook" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <VBox prefHeight="74.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="26.0" prefWidth="585.0">
+               <children>
+                  <Label text="Exact Query Time">
+                     <padding>
+                        <Insets right="10.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="sortedQueryTime" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="All Matches Time">
+                     <padding>
+                        <Insets right="10.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="sortedMatchTime" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="15.0" top="10.0" />
+         </padding>
+      </VBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="38.0" prefWidth="600.0" spacing="10.0">
+         <children>
+            <Label text="Binary Search Tree">
+               <font>
+                  <Font name="MS Outlook" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <VBox prefHeight="74.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="26.0" prefWidth="585.0">
+               <children>
+                  <Label text="Exact Query Time">
+                     <padding>
+                        <Insets right="10.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="binaryQueryTime" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="All Matches Time">
+                     <padding>
+                        <Insets right="10.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="binaryMatchTime" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="15.0" top="10.0" />
+         </padding>
+      </VBox>
+      <HBox prefHeight="34.0" prefWidth="600.0">
+         <children>
+            <Label text="Hash Table">
+               <font>
+                  <Font name="MS Outlook" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="26.0" prefWidth="585.0">
+               <children>
+                  <Label text="Exact Query Time">
+                     <padding>
+                        <Insets right="10.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="hashTableQuery" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="10.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="All Matches Time">
+                     <padding>
+                        <Insets right="10.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="hashTableMatches" />
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>
