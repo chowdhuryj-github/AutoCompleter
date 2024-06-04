@@ -9,7 +9,7 @@ Created an AutoCompleter Interface that had the following methods implemented:
 * ```String[] allMatches(String prefix)``` — returns an array of all the strings in the object that begin with the prefix. If prefix is an empty string, an array of all the strings in the auto completer are returned. If prefix is null, an empty array is returned.
 * ```String getBackingClass()``` — returns a String indicating the fully qualified name of the data structure used to store the words for the AutoCompleter. E.g., "java.util.ArrayList".
 * ```static String format(long nanoseconds)``` — returns a human-friendly string representing the number of nanoseconds. 
-Worked on creating an Unordered List class which implemented the AutoCopleter Interface. Moved on to creating JUnit tests for all the methods in the AutoCompleter interface.
+Worked on creating an Unordered List class which implemented the AutoCompleter Interface. Moved on to creating JUnit tests for all the methods in the AutoCompleter interface.
 
 
 
