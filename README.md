@@ -1,7 +1,7 @@
-DONE
-# CSC1120 Lab 14
 
-## [Link to Lab 14 assignment](https://csse.msoe.us/csc1120/lab14)
+# Lab 8 | Lab 10 | Lab 11 | Lab 13 | Lab 14
+
+## Data Structures & Algorithms | Data Structures | JUnit Testing | Benchmarking
 
 * [ ] Commit 1 "HashTable Implementation of AutoCompleter"
     - Create the `HashTable` adapter class implementation that implements the `AutoCompleter`
