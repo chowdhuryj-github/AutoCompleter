@@ -1,5 +1,5 @@
 
-# Lab 8 | Lab 10 | Lab 11 | Lab 13 | Lab 14
+# The AutoCompleter Lab Collection
 
 ## Lab 8 | A Focus On Unit Testing
 Created an AutoCompleter Interface that had the following methods implemented:
