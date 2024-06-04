@@ -19,7 +19,7 @@ Created a JavaFX Application where users are able to type words into a search bo
 Implemented the AutoCompleter interface using an ordered list and a binary search tree. For the ordered list, a ```Collections.binarySearch()``` call was utilised. 
 
 ## Lab 13 | Trie Data Structure
-Implemented a Trie data structure and implemented the AutoCompleter interface using a Trie. Used a ```ListMap<K, V> class``` that implements the ```Map<K, V>``` interface. 
+Implemented a Trie data structure and implemented the AutoCompleter interface using a Trie. Used a ```ListMap<K, V>``` class that implements the ```Map<K, V>``` interface. 
 
 ## Lab 14 | Hash Table Data Structure
 Created a Hash Table to implement the AutoCompleter interface. Performed time complexity analysis and benchmarking on all data structure implementations. Created a summary document that gives a conclusion on how methods of different data structures work. Feel free to check the PDF in the repository!
