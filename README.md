@@ -1,5 +1,6 @@
 
 # The AutoCompleter Lab Collection
+Welcome to the AutoCompleter Lab Collection! This repository is a data structures project that I've worked on during my freshman year at the Milwaukee School of Engineering!
 
 ## Lab 8 | A Focus On Unit Testing
 Created an AutoCompleter Interface that had the following methods implemented below. Worked on creating an Unordered List class which implemented the AutoCompleter Interface. Moved on to creating JUnit tests for all the methods in the AutoCompleter interface!
