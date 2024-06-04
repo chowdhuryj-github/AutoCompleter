@@ -12,7 +12,8 @@ Created an AutoCompleter Interface that had the following methods implemented be
 * ```static String format(long nanoseconds)``` — returns a human-friendly string representing the number of nanoseconds. 
 
 ## Lab 11 | Building AutoCompleter Application
-Created a User Interface (UI) where users are able to type words into a search box. A list of matches is then shown after a letter is typed. Below the search bar, the time needed to find an exact match and all matched with the same letters typed in would be displayed. 
+Created a JavaFX Application where users are able to type words into a search box. A list of matches is then shown after a letter is typed. Below the search bar, the time needed to find an exact match and all matched with the same letters typed in would be displayed. \n
 
-Ok
+### Ordered List & Binary Search Tree Implementation
+Implemented the AutoCompleter interface using an ordered list and a binary search tree. For the ordered list, a ```Collections.binarySearch()``` call was utilised. 
 
