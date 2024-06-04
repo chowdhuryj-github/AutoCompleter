@@ -11,5 +11,5 @@ Created an AutoCompleter Interface that had the following methods implemented:
 * ```static String format(long nanoseconds)``` — returns a human-friendly string representing the number of nanoseconds. 
 Worked on creating an Unordered List class which implemented the AutoCompleter Interface. Moved on to creating JUnit tests for all the methods in the AutoCompleter interface.
 
-
+## Lab 11 | Building AutoCompleter Application
 
